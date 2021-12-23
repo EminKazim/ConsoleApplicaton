@@ -11,3 +11,24 @@ C:\Users\ASUS\source\repos\Company App\Company App\obj\Debug\netcoreapp3.1\Compa
 C:\Users\ASUS\source\repos\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.dll
 C:\Users\ASUS\source\repos\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.pdb
 C:\Users\ASUS\source\repos\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.exe
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.deps.json
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.runtimeconfig.json
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.dll
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Company App.pdb
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.csproj.CopyComplete
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.dll
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.pdb
+C:\Users\ASUS\Desktop\ConsoleApplication\Company App\Company App\obj\Debug\netcoreapp3.1\Company App.genruntimeconfig.cache

@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Repository.Implementations;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,9 +9,19 @@ namespace Service.Services
 {
     public class CompanyService : ICompanyService
     {
+        private CompanyRepository companyRepository;
+        private int count { get; set; }
+        public CompanyService()
+        {
+            companyRepository = new CompanyRepository();
+        }
         public Company Create(Company model)
         {
-            throw new NotImplementedException();
+            model.Id = count;
+            companyRepository.Create(model);
+            count++;
+            return model;
+
         }
 
         public void Delete(Company model)
