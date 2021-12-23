@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Service.Helpers
 {
-    class MyEnum
+  public  class MyEnum
     {
         public enum Options
         {

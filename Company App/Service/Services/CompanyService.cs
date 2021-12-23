@@ -10,16 +10,16 @@ namespace Service.Services
     public class CompanyService : ICompanyService
     {
         private CompanyRepository _companyRepository;
-        private int _count { get; set; }
+        private int count { get; set; }
         public CompanyService()
         {
             _companyRepository = new CompanyRepository();
         }
         public Company Create(Company model)
         {
-            model.Id = _count;
+            model.Id = count;
             _companyRepository.Create(model);
-            _count++;
+            count++;
             return model;
         }
         public Company GetById(int id)
@@ -32,6 +32,7 @@ namespace Service.Services
         }
         public void Delete(Company company)
         {
+            
             _companyRepository.Delete(company);
         }
         public List<Company> GetByName(string name)
@@ -44,7 +45,8 @@ namespace Service.Services
         }
         public List<Company> GetAll()
         {
-            throw new NotImplementedException();
+            return _companyRepository.GetAll();
+                
         }
 
     }
