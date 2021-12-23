@@ -46,5 +46,10 @@ namespace Repository.Implementations
         {
             throw new NotImplementedException();
         }
+
+        public List<Company> GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

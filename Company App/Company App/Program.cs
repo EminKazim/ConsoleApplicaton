@@ -9,6 +9,8 @@ namespace Company_App
     {
         static void Main(string[] args)
         {
+            CompanyService companyService = new CompanyService();
+           
             Helper.WriteToConsole(ConsoleColor.DarkCyan, "Select options");
             while (true)
             {
@@ -25,21 +27,49 @@ namespace Company_App
                         case 1:
                             Helper.WriteToConsole(ConsoleColor.Cyan, "Add Company Name  :");
                             string companyName = Console.ReadLine();
-                            Helper.WriteToConsole(ConsoleColor.Cyan, "Add Company Place  :");
+                            Helper.WriteToConsole(ConsoleColor.Cyan, "Add Company Adress: ");
                             string adress = Console.ReadLine();
-                            int count;
-                            //Company = new Company
-                            //{
-                            //    Name = companyName,
-                            //    Adress = adress
-                            //};
-                            //var result = company;
+                            Company company = new Company
+                           
+                          
+                            {
+                                Name = companyName,
+                                Adress = adress
+                            };
+                            var result = companyService.Create(company);
+                            if (result != null)
+                            {
+                                Helper.WriteToConsole(ConsoleColor.Cyan, $"({ company.Id} - { company.Name} - { company.Adress} company created");
+                            }
+                            else
+                            {
+                                Helper.WriteToConsole(ConsoleColor.Red, "Something is wrong");
+                                return;
+                            }
                             break;
                         case 2:
                             break;
                         case 3:
                             break;
                         case 4:
+                            Helper.WriteToConsole(ConsoleColor.Cyan, "Add company id : ");
+                        EnterId: string companyId = Console.ReadLine();
+                            int id;
+                            bool isIdTure = int.TryParse(companyId, out id);
+                            if (isIdTure)
+                            {
+                                var company1 = companyService.GetById(id);
+                                if(company1 == null)
+                                {
+                                    Helper.WriteToConsole(ConsoleColor.Red, "Compay not found");
+                                    return;
+
+                                }
+                                else
+                                {
+                                    Helper.WriteToConsole(ConsoleColor.Green, $"{company1.Id} - {company1.Name} - {company1.Adress}");
+                                }
+                            }
                             break;
                         case 5:
                             break;
