@@ -28,17 +28,19 @@ namespace Company_App
                             companyController.Create();
                             break;
                         case (int)MyEnum.Options.UpdateCompany:
+                            companyController.Update();
                             break;
                         case (int)MyEnum.Options.DeleteCompany:
                             companyController.Delete();
                             break;
                         case (int)MyEnum.Options.GetCompanyById:
-                            companyController.GetById();                           
+                            companyController.GetById();
                             break;
                         case (int)MyEnum.Options.GetAllCompanyByName:
+                            companyController.GetByName();
                             break;
                         case (int)MyEnum.Options.GetAllCompany:
-                            companyController.GetAll();
+                            companyController.GetAll();                         
                             break;
                         case (int)MyEnum.Options.CreateEmployee:
                             break;

@@ -5,12 +5,11 @@ using System.Text;
 
 namespace Repository.Interfaces
 {
-    public interface IRepository<T>  where T : BaseEntitiy
+    public interface IRepository<T> where T : BaseEntitiy
     {
-        bool Create(T entitiy);
-        bool Update(T entitiy);
-        bool Delete(T entitiy);
-        T Get(Predicate<T> filter);
-        List<T> GetAll(Predicate<T> filter);
+        bool Create(T entity);
+        bool Delete(T entity);
+        T GetById(Predicate<T> filter);
+
     }
 }
