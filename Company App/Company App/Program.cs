@@ -12,6 +12,7 @@ namespace Company_App
         static void Main(string[] args)
         {
             CompanyController companyController = new CompanyController();
+            EmployeeController employeeController = new EmployeeController();
 
             Helper.WriteToConsole(ConsoleColor.DarkCyan, "Select options");
             while (true)
@@ -43,10 +44,13 @@ namespace Company_App
                             companyController.GetAll();                         
                             break;
                         case (int)MyEnum.Options.CreateEmployee:
+                            employeeController.Create();
                             break;
                         case (int)MyEnum.Options.UpdateEmployee:
+                            
                             break;
                         case (int)MyEnum.Options.DeleteEmployee:
+                            employeeController.Delete();
                             break;
                         case (int)MyEnum.Options.GetEmployeeById:
                             break;
