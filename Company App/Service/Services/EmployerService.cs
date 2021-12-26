@@ -45,22 +45,26 @@ namespace Service.Services.Interfaces
 
         public Employer GetById(int id)
         {
-            throw new NotImplementedException();
+            return _employeeRepository.GetById(m => m.Id == id);
         }
 
-        public List<Employer> GetByAge(int Age)
+        public List<Employer> GetByAge(int age)
         {
-            throw new NotImplementedException();
+            return _employeeRepository.GetByAge(m => m.Age == age);
         }
 
         public List<Employer> GetAllByCompanyId(int companyId)
         {
-            throw new NotImplementedException();
+            return _employeeRepository.GetAllByCompanyId(m => m.Company.Id == companyId);
         }
 
         public Employer Update(int id, Employer model, Company company)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            model.Company = company;
+            model.Id = employee.Id;
+            _employeeRepository.Update(model, company);
+            return model;
         }
     }
 }

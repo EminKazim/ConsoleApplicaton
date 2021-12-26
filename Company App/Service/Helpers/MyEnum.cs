@@ -19,7 +19,8 @@ namespace Service.Helpers
             DeleteEmployee ,
             GetEmployeeById ,
             GetEmployeeByAge ,
-            GetAllEmployeeByCompanyId 
+            GetAllEmployeeByCompanyId,
+            ExitProgramm
         }
 
     }
