@@ -76,9 +76,12 @@ namespace Company_App
                 static void GetMenus()
                 {
 
-                    Helper.WriteToConsole(ConsoleColor.Cyan, "1 - Create Company , 2 - Update Company   , 3 - Delete Company   , 4 - Get Company   by id," +
-                   " 5 - Get all Company  by name,6 - Get all Company   , 7 - Create Employee  8 - Update Employee   , 9 - Get Employee   by id," +
-                   " 10 - Delete Employee,11 - Get Employee   by age, 12 - Get all Employee  by Company  id , 13 - Exit programm");
+                    Helper.WriteToConsole(ConsoleColor.Gray, "Please Select option");
+                    Helper.WriteToConsole(ConsoleColor.Blue, "1 - Creat Company       4 - Get Company By Id        7 - Creat Employee         10 - Delete Employee");
+                    Helper.WriteToConsole(ConsoleColor.Blue, "2 - Update Company      5- Get Company by Name       8 - UpdateEmployee         11 - Get Employee By Age");
+                    Helper.WriteToConsole(ConsoleColor.Blue, "3 - Delete Company      6 - Get All Company          9 - Get Employee By Id     12 - Get All Employee By Company Id");
+                    Helper.WriteToConsole(ConsoleColor.Blue, "13 - Exit programm");
+                    Helper.WriteToConsole(ConsoleColor.Green, "======================================================================================================================"); 
                 }
 
             }
